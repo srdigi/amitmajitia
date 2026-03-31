@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Majithia {CBTF}</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:
+        linear-gradient(135deg, rgba(0,0,0,0.82), rgba(8,20,45,0.9), rgba(0,0,0,0.88)),
+        url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+      color:#fff;
+      overflow:hidden;
+    }
+
+    .wrapper{
+      width:92%;
+      max-width:420px;
+      background: rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.14);
+      border-radius:28px;
+      padding:24px 18px;
+      text-align:center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 30px rgba(255, 191, 0, 0.18);
+      position:relative;
+    }
+
+    .top-badge{
+      display:inline-block;
+      padding:8px 16px;
+      border-radius:999px;
+      background:linear-gradient(90deg,#ffb300,#ffd54f);
+      color:#111;
+      font-size:12px;
+      font-weight:700;
+      margin-bottom:14px;
+      box-shadow:0 0 14px rgba(255,193,7,0.35);
+    }
+
+    .title{
+      font-size:32px;
+      font-weight:900;
+      line-height:1.08;
+      margin-bottom:8px;
+      color:#fff;
+      text-shadow:0 0 12px rgba(255,193,7,0.35);
+    }
+
+    .subtitle{
+      font-size:15px;
+      color:#f1f5f9;
+      margin-bottom:16px;
+      opacity:0.95;
+    }
+
+    .subscribers{
+      display:inline-block;
+      margin-bottom:18px;
+      font-size:14px;
+      font-weight:700;
+      color:#ffd54f;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.12);
+      padding:8px 14px;
+      border-radius:16px;
+    }
+
+    .content-box{
+      background:rgba(255,255,255,0.07);
+      border:1px solid rgba(255,255,255,0.10);
+      border-radius:22px;
+      padding:15px 14px;
+      margin-bottom:18px;
+    }
+
+    .content-line{
+      font-size:14px;
+      line-height:1.5;
+      margin:7px 0;
+      color:#ffffff;
+    }
+
+    .highlight{
+      color:#ffd54f;
+      font-weight:800;
+    }
+
+    .btn{
+      display:block;
+      width:100%;
+      text-decoration:none;
+      background:linear-gradient(90deg,#ffd54f,#ffb300);
+      color:#111;
+      font-size:18px;
+      font-weight:900;
+      padding:16px 18px;
+      border-radius:18px;
+      box-shadow:0 0 22px rgba(255,193,7,0.45);
+      transition:0.25s ease;
+      animation:pulse 1.6s infinite;
+      margin-bottom:14px;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px) scale(1.01);
+    }
+
+    .note{
+      font-size:12px;
+      color:#dbeafe;
+      opacity:0.9;
+      line-height:1.4;
+    }
+
+    .glow-line{
+      width:80px;
+      height:4px;
+      margin:0 auto 14px;
+      border-radius:20px;
+      background:linear-gradient(90deg,#ffb300,#ffd54f,#ffb300);
+      box-shadow:0 0 16px rgba(255,193,7,0.5);
+    }
+
+    @keyframes pulse{
+      0%{transform:scale(1); box-shadow:0 0 18px rgba(255,193,7,0.35);}
+      50%{transform:scale(1.03); box-shadow:0 0 28px rgba(255,193,7,0.58);}
+      100%{transform:scale(1); box-shadow:0 0 18px rgba(255,193,7,0.35);}
+    }
+
+    @media (max-width:480px){
+      .wrapper{
+        padding:20px 15px;
+        max-width:360px;
+      }
+      .title{
+        font-size:28px;
+      }
+      .subtitle{
+        font-size:14px;
+      }
+      .content-line{
+        font-size:13px;
+      }
+      .btn{
+        font-size:17px;
+        padding:15px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-badge">IPL • CRICKET • LIVE UPDATES</div>
+    <h1 class="title">Amit Majithia {CBTF}</h1>
+    <div class="glow-line"></div>
+    <p class="subtitle">Premium Cricket & IPL Insights Channel</p>
+    <div class="subscribers">92 219 subscribers</div>
+
+    <div class="content-box">
+      <p class="content-line"><span class="highlight">IPL Match Updates</span> aur cricket analysis ek jagah.</p>
+      <p class="content-line"><span class="highlight">Pitch Report</span>, match view aur important game insights.</p>
+      <p class="content-line"><span class="highlight">Fast Join Karo</span> aur latest cricket content sabse pehle pao.</p>
+    </div>
+
+    <a class="btn" href="https://t.me/+osqnzkgwD484M2U1" target="_blank">
+      JOIN TELEGRAM CHANNEL
+    </a>
+
+    <p class="note">
+      Cricket lovers ke liye special one-page landing design.<br>
+      IPL theme ke sath clean, fast aur mobile friendly layout.
+    </p>
+  </div>
+</body>
+</html>
